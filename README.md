@@ -1,0 +1,2 @@
+# fairsapi
+fairsapi show
