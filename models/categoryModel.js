@@ -12,6 +12,10 @@ const Category = Sequelize.define("category", {
     allowNull: false,
     unique: true
   },
+   job_count: {
+    type: DataTypes.INTEGER,
+    defaultValue: '0',    
+  },  
   url: {
     type: DataTypes.STRING(500),
     allowNull: true
